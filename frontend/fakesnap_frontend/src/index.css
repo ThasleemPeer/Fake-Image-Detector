@@ -1,0 +1,54 @@
+/* src/styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result.success {
+  color: green;
+}
+
+.result.error {
+  color: red;
+}
